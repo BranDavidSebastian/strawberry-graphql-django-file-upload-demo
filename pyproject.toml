@@ -1,0 +1,9 @@
+[project]
+name = "delmedjangokaputt"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = [
+    "strawberry-graphql-django==0.50.0",
+    "strawberry-graphql==0.253.0",
+]
