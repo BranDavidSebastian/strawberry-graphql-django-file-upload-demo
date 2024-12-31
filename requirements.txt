@@ -1,0 +1,14 @@
+asgiref==3.8.1
+django==5.1.4
+channels==4.1.0
+channels-redis==4.2.0
+daphne==4.1.2
+starlette==0.45.0
+
+strawberry-graphql==0.253.0 # NEW VERSION / NOT WORKING WITH ASYNC
+strawberry-graphql-django==0.50.0  # NEW VERSION / NOT WORKING WITH ASYNC
+
+# Uncomment these older lines (and comment out the newer Strawberry lines above)
+# to switch back to a “known good” environment where file uploads with async works:
+# strawberry-graphql==0.219.1  # OLD VERSION / WORKING WITH ASYNC
+#strawberry-graphql-django==0.32.1 # OLD VERSION / WORKING WITH ASYNC
